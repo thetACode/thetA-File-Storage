@@ -1,0 +1,327 @@
+/* 
+    Document   : style
+    Created on : Mar 30, 2012, 4:08:23 PM
+    Author     : thetA
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+html, body {
+    margin: 0;
+    background: -moz-linear-gradient(top, #FFFFFF, #cccccc);
+    background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#4b626f));
+    height: 100%;
+}
+
+#header {
+    background-color: #666666;
+    width: 500px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;
+}
+
+#container {
+    padding-top: 25px;
+    width: 500px;
+    margin: auto;
+    
+}
+
+.content {
+    background-color: #cccccc;
+    padding-left: 5px;
+    margin-top: 6px;
+    width: 500px;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;   
+}
+
+#title {
+    margin: 0px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #888888;
+}
+
+#headingtable {
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    clear: left;
+}
+
+#logos {
+    width: 140px;
+    margin: auto;
+    text-align: right;
+    float: right;
+    clear: both;
+    
+    background-color: #666666;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 20px;
+    
+    border-bottom-left-radius: 20px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;
+}
+
+#sidebar {
+    color: #FFFFFF;
+    text-shadow: 3px 3px 3px #888888;
+    width: 200px;
+    height: 600px;
+    margin: auto;
+    text-align: left;
+    float: left;
+    clear: both;
+    
+    background-color: #666666;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;
+}
+
+#BTN_home {
+    color: #ffffff;
+}
+
+#BTN_files {
+    color: #ffffff;
+}
+
+#BTN_upload {
+    color: #ffffff;
+}
+
+.SideBar_item {
+    background-color: #333333;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-top: 2px;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;    
+}
+
+#TD_home {    
+    background-color: #333333;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;    
+}
+
+#TD_files {
+    background-color: #333333;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;      
+}
+
+#TD_upload {
+    background-color: #333333;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;     
+}
+
+#uploadertable {
+    width: 500px;
+}
+
+.uploader {
+    
+    background-color: #cccccc;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-top: 6px;
+    width: 500px;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;   
+}
+
+.uploaderinfo {
+    
+    background-color: #888888;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 6px;
+    width: 490px;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    /* Schlagschatten */
+    box-shadow: 3px 3px 3px #888888;   
+}
+
+#uploadersuccessfulID {
+    background-color: #33ff33;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 6px;
+    width: 20px;
+    height: 60px;
+    float: right;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    /* Schlagschatten */
+    box-shadow: 5px 5px 5px #333333;   
+}
+
+.uploadersuccessful {
+    background-color: #33ff33;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 6px;
+    width: 20px;
+    height: 60px;
+    float: right;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    /* Schlagschatten */
+    box-shadow: 5px 5px 5px #333333;   
+}
+
+.uploaderNOTsuccessful {
+    background-color: #ff0000;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 6px;
+    width: 20px;
+    height: 60px;
+    float: right;
+    
+    /* Ronn Ecken */
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    /* Schlagschatten */
+    box-shadow: 5px 5px 5px #333333;
+}
